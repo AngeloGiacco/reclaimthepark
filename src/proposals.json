@@ -1,0 +1,75 @@
+{
+  "proposals": [
+    {
+      "slug": "tower",
+      "title": "The Hyde Park Tower",
+      "subtitle": "London's first free public skyscraper",
+      "tagline": "Go up to give the ground back.",
+      "description": "A slender 170m glass tower housing a free observation deck, exhibition galleries, a climate research centre, a culinary institute, co-working spaces, a 400-seat auditorium, and a summit restaurant — all with free public entry to the core spaces. 86% of the site is returned to wildflower meadow and native parkland. The tower occupies just 625 sqm of the 4,385 sqm site.",
+      "designPhilosophy": "Based on KPF President James von Klemperer's 'Higher Purpose' thesis: that tall buildings should serve civic purposes, not just commercial ones. References KPF's One Vanderbilt (civic base, public summit), North Bund Lot 91 (all-electric, carbon-neutral), and the Crystal Palace precedent — Hyde Park hosted the most ambitious building of 1851.",
+      "stats": {
+        "annualGVA": { "value": "£217m", "source": "Modelled on Tate Modern (£100m GVA) scaled for mixed-use programme and workspace tenants" },
+        "directJobs": { "value": "800", "source": "Estimated from comparable institutions: Tate (2,000 across 4 sites), British Museum (1,200)" },
+        "totalJobs": { "value": "2,800", "source": "Direct (800) + indirect/induced (2,000) using standard multipliers" },
+        "annualVisitors": { "value": "2.5m", "source": "Conservative estimate: The Shard draws 2.3m at £32/ticket. A free tower would exceed this." },
+        "annualRevenue": { "value": "£46m", "source": "10-stream diversified model: F&B (£8m), workspace (£6m), events (£5m), sponsorship (£4m), donations (£4m), membership (£3.5m), exhibitions (£3m), retail (£2.5m), education (£2m), DCMS grant (£8m)" },
+        "greenSpace": { "value": "3,760 sqm", "note": "86% of the site returned to park — more green than exists today" },
+        "entryPrice": { "value": "Free", "note": "Observation deck, permanent galleries, and ground floor all free to enter" }
+      },
+      "renders": ["tower-street.png", "tower-serpentine.png"],
+      "cardRender": "tower-street.png",
+      "accentColor": "#B8860B"
+    },
+    {
+      "slug": "school",
+      "title": "The London School of Making",
+      "subtitle": "A public design academy and fabrication workshop",
+      "tagline": "Learn to make things. In public. At the edge of London's greatest park.",
+      "description": "A 4-storey cross-laminated timber building — the largest mass timber public building in London — housing a publicly accessible ground-floor workshop, professional design school, artist residencies, materials library, and rooftop productive garden. The ground floor is entirely open: visitors watch craftspeople work, try a lathe, or attend a drop-in class. The building itself is a teaching tool — every beam, joint, and cross-brace is exposed.",
+      "designPhilosophy": "Draws from KPF's educational portfolio and their belief that architecture and urbanism are inseparable. The 80m-long deep timber colonnade on Bayswater Road is a monumental public gesture — inviting you in, making the activity inside visible from the bus. The building is transparent about its construction, its purpose, and its values.",
+      "stats": {
+        "annualGVA": { "value": "£20–35m", "source": "Modelled on Central Saint Martins (King's Cross) revenue and creative economy multipliers" },
+        "directJobs": { "value": "150–220", "source": "Teaching staff (35-50), technicians (20-30), resident artists (15-25), admin (20-25), café/retail (20-30), facilities (15-20)" },
+        "totalJobs": { "value": "500–800", "source": "Direct + indirect, plus 800-1,200 graduates entering creative economy annually after year 5" },
+        "annualVisitors": { "value": "500k–800k", "source": "Building Centre draws 200k on a fraction of this footprint. Open workshop model drives repeat visits." },
+        "annualRevenue": { "value": "£8–15m", "source": "Course fees, corporate workshops, venue hire, retail, café" },
+        "greenSpace": { "value": "Rooftop garden", "note": "Productive growing space and outdoor teaching areas on the roof" },
+        "entryPrice": { "value": "Free", "note": "Ground floor workshop and exhibitions free. Courses are paid." }
+      },
+      "renders": ["school-street.png"],
+      "cardRender": "school-street.png",
+      "accentColor": "#8B6914"
+    },
+    {
+      "slug": "cultural-dock",
+      "title": "The Hyde Park Cultural Dock",
+      "subtitle": "Gallery, workshops, market, and studios — a cultural village at the park gates",
+      "tagline": "See the park through the building.",
+      "description": "Four interconnected brick-and-bronze volumes rising 2–4 storeys, arranged around a central covered atrium and cut through by two pedestrian lanes that frame views of Kensington Gardens. Ground floor: a major gallery, artisan workshops, destination restaurant, and design bookshop. Upper floors: studios, co-working, and a 150-seat lecture theatre. The brick references the demolished perimeter wall — evolution, not erasure.",
+      "designPhilosophy": "Draws directly from KPF's Covent Garden masterplan (London) and K11 Musea (Hong Kong) — the 'cultural commerce' model where art, retail, and food activate a public realm. The pedestrian lanes cutting through the massing are a direct reference to KPF's Ilsan Cultural Center in Seoul, where 'streets' were introduced into the complex to create urban permeability.",
+      "stats": {
+        "annualGVA": { "value": "£30–55m", "source": "Modelled on KPF Covent Garden estate economics (rental income grew from £54m to £95m over a decade under KPF masterplan)" },
+        "directJobs": { "value": "250–350", "source": "Gallery/curatorial (25-35), artisan workshops (60-80), F&B (80-100), events (20-30), retail (30-40), operations (25-35), education (15-20)" },
+        "totalJobs": { "value": "650–950", "source": "Direct + supply chain and local economy multiplier" },
+        "annualVisitors": { "value": "1–1.5m", "source": "Coal Drops Yard at King's Cross as primary comparable" },
+        "annualRevenue": { "value": "£12–20m", "source": "Retail rents, gallery income, F&B, events hire, workspace rents" },
+        "greenSpace": { "value": "Green roofs + park edge", "note": "South edge opens directly to Kensington Gardens with no barrier" },
+        "entryPrice": { "value": "Free", "note": "All public spaces, galleries, and the central atrium are free to enter" }
+      },
+      "renders": ["cultural-dock-street.png"],
+      "cardRender": "cultural-dock-street.png",
+      "accentColor": "#8B4513"
+    }
+  ],
+  "carpark": {
+    "title": "Current: Surface Car Park",
+    "stats": {
+      "annualGVA": { "value": "~£1m", "source": "Estimated from published tariffs (£22/day cars, £48/day coaches) at assumed occupancy" },
+      "directJobs": { "value": "~5", "source": "Estimated: attendant, ANPR system" },
+      "annualVisitors": { "value": "0", "note": "As a destination/attraction" },
+      "annualRevenue": { "value": "£0.5–1m", "source": "Estimated, pending FOI confirmation" },
+      "greenSpace": { "value": "0 sqm", "note": "100% tarmac" },
+      "entryPrice": { "value": "£22–48/day", "note": "Cars £22/24hrs, coaches £48/24hrs" }
+    }
+  }
+}

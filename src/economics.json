@@ -1,0 +1,91 @@
+{
+  "site": {
+    "area_sqm": 4384.52,
+    "area_ha": 0.4385,
+    "area_acres": 1.08,
+    "perimeter_m": 272.95,
+    "address": "150 Bayswater Road, London W2 4RT",
+    "operator": "Euro Car Parks Limited",
+    "companyNumber": "01270612",
+    "source": "Satellite polygon measurement (area); Companies House (operator)"
+  },
+  "landValue": {
+    "westminsterPerHa": 93300000,
+    "siteValueWestminster": 40907572,
+    "w24MedianPerSqm": 14600,
+    "siteValueW24": 64013992,
+    "bayswaterRdAvgSold": 3700000,
+    "sources": [
+      {
+        "metric": "Westminster residential land value (£93.3m/ha)",
+        "source": "GLA Economics, Economic Evidence Base for London 2016, Chapter 4",
+        "url": "https://london.gov.uk/sites/default/files/chapter4-economic-evidence-base-2016.pdf"
+      },
+      {
+        "metric": "W2 4 median price per sqm (£14,600)",
+        "source": "HM Land Registry via Housemetric, based on 200 transactions over 24 months to mid-2025",
+        "url": "https://housemetric.co.uk/analysis/sector/W2-4/Bayswater"
+      },
+      {
+        "metric": "Bayswater Rd avg sold price (£3.7m)",
+        "source": "Zoopla, 12-month period to December 2025",
+        "url": "https://www.zoopla.co.uk/house-prices/london/bayswater-road/"
+      }
+    ]
+  },
+  "carpark": {
+    "estimatedRevenueLow": 500000,
+    "estimatedRevenueHigh": 1000000,
+    "impliedReturnLow": 1.22,
+    "impliedReturnHigh": 2.44,
+    "tariffCar": 22,
+    "tariffCoach": 48,
+    "source": "Revenue estimated from published tariffs at assumed occupancy. Exact figures pending FOI response."
+  },
+  "comparables": [
+    {
+      "name": "King's Cross",
+      "annualGVA": 1420000000,
+      "gvaPerHa": 21000000,
+      "areaHa": 27,
+      "jobs": 18000,
+      "source": "King's Cross Group, 10-year anniversary data (October 2021)",
+      "url": "https://www.kingscross.co.uk/press/2021/10/08/the-kings-cross-estate-celebrates-10-year-anniversary"
+    },
+    {
+      "name": "Tate Modern",
+      "annualGVA": 100000000,
+      "visitors": 4600000,
+      "jobsCreated": 3000,
+      "source": "Tate Modern economic impact report; VisitEngland 2024 data",
+      "url": "https://www.tate.org.uk/press/press-releases/economic-impact-tate-modern"
+    },
+    {
+      "name": "Serpentine Galleries",
+      "visitors": 1200000,
+      "entryPrice": "Free",
+      "source": "Serpentine official figures",
+      "url": "https://en.wikipedia.org/wiki/Serpentine_Galleries"
+    },
+    {
+      "name": "British Museum",
+      "visitors": 6500000,
+      "totalIncome": 145000000,
+      "selfGenerated": 100000000,
+      "entryPrice": "Free",
+      "source": "British Museum Annual Report 2024-25",
+      "url": "https://www.britishmuseum.org/sites/default/files/2025-07/Annual_Report_and_Accounts_2024-25.pdf"
+    }
+  ],
+  "greenSpaceROI": {
+    "value": 27,
+    "unit": "£ return per £1 invested",
+    "source": "GLA / Vivid Economics, Natural Capital Accounts for Public Green Space in London, 2017",
+    "url": "https://www.london.gov.uk/programmes-strategies/environment-and-climate-change/parks-green-spaces-and-biodiversity/parks-and-green-spaces"
+  },
+  "tenYearOpportunityCost": {
+    "conservative": 78000000,
+    "optimistic": 165000000,
+    "methodology": "Conservative: (£8.8m potential GVA - £1m car park revenue) × 10 years. Optimistic: (£17.5m - £1m) × 10 years. GVA per hectare modelled on sub-King's Cross (£20m/ha) and King's Cross-level (£40m/ha) intensity."
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "timeline": [
+    { "id": 1, "title": "Research & economic analysis", "description": "Land value analysis, scenario modelling, comparable site research", "status": "complete", "date": "March 2026" },
+    { "id": 2, "title": "FOI submitted to The Royal Parks", "description": "Requesting concession agreement details, revenue, expiry date", "status": "complete", "date": "March 2026" },
+    { "id": 3, "title": "Campaign website launched", "description": "Public-facing site with economic case and proposals", "status": "in-progress", "date": "March 2026" },
+    { "id": 4, "title": "Building coalition", "description": "Contacting London National Park City, NLA, Create Streets, ward councillors", "status": "in-progress", "date": "April–May 2026" },
+    { "id": 5, "title": "FOI response received", "description": "Key data: concession expiry date, revenue terms, break clauses", "status": "upcoming", "date": "April 2026 (statutory deadline)" },
+    { "id": 6, "title": "Open design competition", "description": "Public call for design ideas, partnering with architecture schools", "status": "upcoming", "date": "Summer 2026" },
+    { "id": 7, "title": "Political engagement", "description": "Presentations to Westminster councillors, letter to DCMS", "status": "upcoming", "date": "Autumn 2026" },
+    { "id": 8, "title": "Pilot activation proposal", "description": "Propose temporary summer activation of the car park", "status": "upcoming", "date": "2027" }
+  ],
+  "lastUpdated": "2026-03-15",
+  "faq": [
+    {
+      "question": "Isn't this a Grade I listed park? You can't build there.",
+      "answer": "Hyde Park is Grade I listed on the Register of Historic Parks and Gardens. This means development is tightly controlled — but not prohibited. The Serpentine Sackler Gallery (designed by Zaha Hadid) was built within the park grounds in 2013 with approval from Historic England and The Royal Parks. The car park itself is a modern intrusion on the historic landscape. Replacing it with something better is consistent with the park's heritage, not contrary to it. We are agnostic about what form the replacement takes — some concepts (like the Landform) involve no building at all."
+    },
+    {
+      "question": "Where would the coaches park?",
+      "answer": "Coach parking can be accommodated underground beneath any of the proposed schemes, or relocated to an alternative site with better road access. Several proposals include basement-level coach drop-off. We are not proposing to eliminate coach access to central London — only to free the surface of this site from tarmac."
+    },
+    {
+      "question": "Who would pay for this?",
+      "answer": "Different concepts have different funding models. The tower concept generates £46m/year in self-sustaining revenue from restaurants, workspace, events, and sponsorship — with free public entry. The School of Making would combine course fees with philanthropic and government funding (like Central Saint Martins). The Cultural Dock operates on a commercial rental model (like Covent Garden). In all cases, the economic return vastly exceeds the investment."
+    },
+    {
+      "question": "Isn't this just gentrification?",
+      "answer": "The site is already in one of the most expensive postcodes in the world (W2 4, median £14,600/sqm). There are no residents to displace — it's a car park. Every proposal includes free public access as a core principle. The goal is to create jobs, cultural amenity, and public space for everyone — not luxury housing."
+    },
+    {
+      "question": "A skyscraper next to Hyde Park? That's insane.",
+      "answer": "We include the tower concept as a provocation — the most ambitious possible vision for the site. It is deliberately controversial. If you think the tower is too much, we agree that's a reasonable position. But we'd ask: what would YOU put here instead? Because the answer can't be 'a car park.' That's the point."
+    },
+    {
+      "question": "Who are you? What gives you the right?",
+      "answer": "We're a group of London residents, urbanists, and designers who walk past this car park and wonder why it exists. We have no commercial interest, no developer backing, and no political affiliation. This is an open-source campaign — all our research, data, and analysis is public on GitHub. We believe citizens have every right to ask questions about how Crown land in a public park is used."
+    },
+    {
+      "question": "Do you have planning permission?",
+      "answer": "No. We are not a developer and we are not submitting a planning application. We are a campaign asking for transparency about the current concession, a public consultation on the site's future, and a commitment to explore alternatives before the concession is renewed."
+    },
+    {
+      "question": "Why don't you just extend the park?",
+      "answer": "That's one of our proposals! The Landform concept returns the entire site to sculpted parkland with no buildings at all. We include it alongside more ambitious concepts because we believe the public should choose — and any option is better than the current car park."
+    }
+  ]
+}
