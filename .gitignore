@@ -1,3 +1,33 @@
+# OS
 .DS_Store
+Thumbs.db
+
+# Secrets
 *.pem
 .env*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Node (website / competition platform)
+node_modules/
+dist/
+
+# Data (large files — keep in Git LFS or external storage)
+*.xlsx
+*.xls
+
+# Build artifacts
+*.log
