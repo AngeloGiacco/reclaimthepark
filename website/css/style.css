@@ -1,0 +1,184 @@
+/* Reclaim the Park — Campaign Website Styles */
+
+:root {
+    --green-dark: #1a3a2a;
+    --green-mid: #2d6a4f;
+    --green-light: #52b788;
+    --cream: #fafaf5;
+    --text: #1a1a1a;
+    --text-light: #555;
+    --max-width: 960px;
+}
+
+/* Reset */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Base */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--text);
+    background: var(--cream);
+    line-height: 1.6;
+}
+
+/* Navigation */
+header {
+    background: var(--green-dark);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* Hero */
+.hero {
+    background: var(--green-mid);
+    color: white;
+    text-align: center;
+    padding: 6rem 1rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.tagline {
+    font-size: 1.25rem;
+    opacity: 0.9;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+}
+
+.cta {
+    display: inline-block;
+    background: white;
+    color: var(--green-mid);
+    padding: 0.75rem 2rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.cta:hover {
+    background: var(--green-light);
+    color: white;
+}
+
+/* Sections */
+section {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 4rem 1rem;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--green-dark);
+}
+
+section p {
+    color: var(--text-light);
+    margin-bottom: 1rem;
+    max-width: 700px;
+}
+
+/* Cards */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.card {
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+.card h3 {
+    color: var(--green-mid);
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    font-size: 0.95rem;
+}
+
+/* Get Involved */
+#get-involved ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+}
+
+#get-involved li {
+    margin-bottom: 0.5rem;
+    color: var(--text-light);
+}
+
+#get-involved a {
+    color: var(--green-mid);
+}
+
+/* Footer */
+footer {
+    background: var(--green-dark);
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    nav ul {
+        gap: 1rem;
+        font-size: 0.9rem;
+    }
+}
