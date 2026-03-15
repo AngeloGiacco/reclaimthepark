@@ -1,37 +1,59 @@
-# Reclaim the Park
+# Reclaim The Park
 
-A civic campaign to reimagine and improve public access to London's Royal Parks.
+A grassroots campaign to transform the Bayswater Road car park into something extraordinary for London.
 
-## What This Is
+A **4,385 sqm** (just over 1 acre) surface car park sits on Crown land at the north-western edge of Hyde Park — one of the most valuable and historically significant pieces of public land in Europe. It generates an estimated **£0.5–1m/year** in parking fees on land worth **£41–64m**. We believe London deserves better.
 
-London's Royal Parks are among the greatest public spaces in the world — but too much of their land is given over to roads, car parks, private concessions, and underused areas. **Reclaim the Park** builds the evidence base and public support to change that.
+## What We Want
 
-We combine:
-- **Research** — FOI requests, data analysis, and international comparisons
-- **Design competitions** — crowdsourcing bold, practical ideas from architects and the public
-- **Community organising** — petitions, events, and coalition building
-- **Advocacy** — engaging Royal Parks, Westminster Council, DCMS, and Historic England
+We don't prescribe what should replace the car park. We want:
+
+1. **Transparency** — public disclosure of the concession agreement between The Royal Parks and Euro Car Parks
+2. **Vision** — an open design competition to imagine what this site could become
+3. **Action** — a pilot activation to prove the site's potential before the concession renews
+
+## What's In This Repo
+
+```
+├── CLAUDE.md              # Full campaign context for AI coding agents
+├── website/               # Campaign website (static site)
+├── research/              # Economic analysis, data, sources
+├── comms/                 # FOI requests, authority correspondence, ally outreach
+├── competitions/          # Design competition briefs, platform, submissions
+├── press/                 # Press releases, media coverage, media kit
+├── plans/                 # Strategy docs, pilot proposals, legal notes
+├── community/             # Petition, events, supporter coordination
+└── .github/workflows/     # CI/CD for site deployment
+```
+
+## The Economic Case
+
+| Current use | Potential use |
+|---|---|
+| ~£0.5–1m/year car park revenue | £8.8–17.5m/year GVA (modelled on comparable London sites) |
+| ~5 jobs | 80–300 direct jobs depending on concept |
+| ~150k vehicle movements/year | 0.5–1.5m visitors/year |
+
+Over 10 years, inaction costs London an estimated **£78–165m** in lost economic value.
 
 ## Get Involved
 
-- Read our [Contributing Guide](CONTRIBUTING.md)
-- Sign the petition (coming soon)
-- Enter a design competition (coming soon)
-- Submit an FOI request using our [templates](comms/templates/)
+- **Read the argument**: Blog post
+- **Submit an FOI**: [Template](comms/templates/)
+- **Enter the design competition**: Current briefs
+- **Sign the petition**: \[Link TBD\]
+- **Join the coalition**: Open an issue or email \[TBD\]
 
-## Structure
+## Key Links
 
-| Folder | Purpose |
-|--------|---------|
-| `website/` | Campaign website |
-| `research/` | Data, analysis, and source documents |
-| `comms/` | FOI requests, correspondence, outreach |
-| `competitions/` | Design competition materials |
-| `press/` | Press releases and media coverage |
-| `plans/` | Strategy, pilots, and legal research |
-| `community/` | Petition, events, supporters |
+- **FOI tracker**: [comms/foi/tracker.md](comms/foi/tracker.md)
+- **Economic analysis data**: [research/data/](research/data/)
+- **Campaign timeline**: [plans/strategy/timeline.md](plans/strategy/timeline.md)
 
-## Licence
+## License
 
-- Code: [MIT](LICENSE)
-- Content: [CC BY-SA 4.0](LICENSE)
+Original content: CC BY-SA 4.0. Code: MIT. Third-party content retains original licensing.
+
+---
+
+*This campaign is run by volunteers. We are not affiliated with The Royal Parks, Westminster City Council, or any political party.*
